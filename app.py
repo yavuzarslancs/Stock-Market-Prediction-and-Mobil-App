@@ -42,4 +42,4 @@ def make_prediction(input_data):
     return predicted_price
 
 if __name__ == '__main__':
-    app.run(host="192.168.182.1", port=5000, debug=True)
+    app.run(host="*****", port=5000, debug=True)
